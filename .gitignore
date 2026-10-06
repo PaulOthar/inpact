@@ -1,55 +1,74 @@
-# Prerequisites
-*.d
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Linker output
-*.ilk
-*.map
-*.exp
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Precompiled Headers
-*.gch
-*.pch
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+### VS Code ###
+.vscode/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Dependências baixadas (caso use cache local)
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Sistema operacional
+.DS_Store
+Thumbs.db
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# IDEs
+# IntelliJ
+.idea/
+*.iml
+*.iws
 
-# debug information files
-*.dwo
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VSCode
+.vscode/
+
+# Arquivos de segurança/sensíveis (se aplicável)
+.env
+*.env
+*.key
+*.crt
+*.pem
+
+# Arquivos do Maven Wrapper
+mvnw
+mvnw.cmd
+

@@ -1,0 +1,6 @@
+[submodule "makes"]
+	path = makes
+	url = https://github.com/PaulOthar/makes.git
+[submodule "lib/inflate"]
+	path = lib/inflate
+	url = https://github.com/PaulOthar/inflate.git
